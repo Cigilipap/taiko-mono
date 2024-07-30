@@ -54,7 +54,7 @@ To maintain clarity and consistency across our Solidity codebase, the following 
 - **Private Functions:** Prefix private function names with a leading underscore (`_`). This convention signals the function's visibility level at a glance.
 - **Private State Variables:** Prefix all private state variable names with a leading underscore (`_`), highlighting their limited scope within the contract.
 
-#### Reserved storage slots
+#### Reserved storage slots.
 
 To ensure upgradeability and prevent storage collisions in future contract versions, reserve a fixed number of storage slots at the end of each contract. This is achieved by declaring a placeholder array in the contract's storage layout as follows:
 
